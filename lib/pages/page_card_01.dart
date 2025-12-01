@@ -189,6 +189,21 @@ class PageCard01 extends StatelessWidget {
               ),
             ),
 
+            const SizedBox(height: 20),
+
+            Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(30.0),
+              ),
+              child: const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Text(
+                  "Custom border Radius Card",
+                  style: TextStyle(fontSize: 14.0),
+                ),
+              ),
+            ),
+
           ],
         ),
       ),
