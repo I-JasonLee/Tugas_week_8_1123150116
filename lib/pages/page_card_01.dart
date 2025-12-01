@@ -175,6 +175,20 @@ class PageCard01 extends StatelessWidget {
               ),
             ),
 
+            const SizedBox(height: 20),
+
+            Card(
+              shadowColor: Colors.red,
+              elevation: 8, // penting untuk melihat bayangan
+              child: const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Text(
+                  "Shadow Color Card",
+                  style: TextStyle(fontSize: 14.0),
+                ),
+              ),
+            ),
+
           ],
         ),
       ),
