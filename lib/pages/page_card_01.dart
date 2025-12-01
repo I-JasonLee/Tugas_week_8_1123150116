@@ -118,6 +118,23 @@ class PageCard01 extends StatelessWidget {
               ),
             ),
 
+            const SizedBox(height: 10),
+
+            Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(16),
+                side: BorderSide(color: Colors.blue, width: 2),
+              ),
+              borderOnForeground: false,
+              child: const Padding(
+                padding: EdgeInsets.all(8),
+                child: Text(
+                  "Border di belakang konten (FALSE)",
+                  style: TextStyle(fontSize: 10),
+                ),
+              ),
+            ),
+
           ],
         ),
       ),
