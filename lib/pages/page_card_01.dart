@@ -162,6 +162,19 @@ class PageCard01 extends StatelessWidget {
               ),
             ),
 
+            const SizedBox(height: 10),
+
+            Card(
+              semanticContainer: false,
+              child: const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Text(
+                  "Semantic false",
+                  style: TextStyle(fontSize: 14.0),
+                ),
+              ),
+            ),
+
           ],
         ),
       ),
