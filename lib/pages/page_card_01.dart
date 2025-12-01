@@ -135,6 +135,20 @@ class PageCard01 extends StatelessWidget {
               ),
             ),
 
+            const SizedBox(height: 20),
+
+            Card(
+              clipBehavior: Clip.antiAlias,
+              child: Container(
+                color: Colors.green,
+                padding: const EdgeInsets.all(8),
+                child: const Text(
+                  "Anti alias clip Card",
+                  style: TextStyle(fontSize: 14.0, color: Colors.white),
+                ),
+              ),
+            ),
+
           ],
         ),
       ),
