@@ -37,7 +37,21 @@ class PageCard01 extends StatelessWidget {
                 style: TextStyle(fontSize: 16.0, color: Colors.white),
               ),
             ),
-            
+
+            const SizedBox(height: 20),
+
+            Card(
+              elevation: 8,
+              color: Colors.yellow,
+              child: Padding(
+                padding: EdgeInsets.all(12.0),
+                child: Text(
+                  "Tinggi bayangan Shadow",
+                  style: TextStyle(fontSize: 12.0),
+                ),
+              ),
+            ),
+
           ],
         ),
       ),
