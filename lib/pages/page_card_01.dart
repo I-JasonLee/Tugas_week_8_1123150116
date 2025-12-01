@@ -129,7 +129,7 @@ class PageCard01 extends StatelessWidget {
               child: const Padding(
                 padding: EdgeInsets.all(8),
                 child: Text(
-                  "Border di belakang konten (FALSE)",
+                  "Border di belakang konten (False)",
                   style: TextStyle(fontSize: 10),
                 ),
               ),
@@ -145,6 +145,19 @@ class PageCard01 extends StatelessWidget {
                 child: const Text(
                   "Anti alias clip Card",
                   style: TextStyle(fontSize: 14.0, color: Colors.white),
+                ),
+              ),
+            ),
+
+            const SizedBox(height: 20),
+
+            Card(
+              semanticContainer: true,
+              child: const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Text(
+                  "Semantic true",
+                  style: TextStyle(fontSize: 14.0),
                 ),
               ),
             ),
