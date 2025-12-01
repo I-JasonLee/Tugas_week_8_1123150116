@@ -88,6 +88,19 @@ class PageCard01 extends StatelessWidget {
               ),
             ),
 
+            const SizedBox(height: 20),
+
+            Card(
+              margin: EdgeInsets.all(16.0),
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Text(
+                  "Margin Card",
+                  style: TextStyle(fontSize: 10.0),
+                ),
+              ),
+            ),
+
           ],
         ),
       ),
