@@ -73,6 +73,21 @@ class PageCard01 extends StatelessWidget {
               ),
             ),
 
+            const SizedBox(height: 20),
+
+            Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(15.0),
+              ),
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Text(
+                  "Shape Bingkai Persegi Panjang",
+                  style: TextStyle(fontSize: 12.0),
+                ),
+              ),
+            ),
+
           ],
         ),
       ),
