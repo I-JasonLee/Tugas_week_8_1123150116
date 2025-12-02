@@ -204,6 +204,40 @@ class PageCard01 extends StatelessWidget {
               ),
             ),
 
+            const SizedBox(height: 20),
+
+            Card(
+              elevation: 8,
+              child: Padding(
+                padding: const EdgeInsets.all(20.0), // padding untuk isi card
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const Text(
+                      'Tentang Saya',
+                      style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+
+                    const SizedBox(height: 12),
+
+                    Text(
+                      'an enthusiast in information technology (Digital Sign, Blockchain, etc), '
+                      'with more than 20 years of experiences in the payment industry',
+                      style: TextStyle(
+                        fontSize: 15,
+                        color: Colors.grey[700],
+                        height: 1.5, // agar lebih enak dibaca
+                      ),
+                      textAlign: TextAlign.justify,
+                    ),
+                  ],
+                ),
+              ),
+            ),
+
           ],
         ),
       ),
