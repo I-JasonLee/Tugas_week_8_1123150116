@@ -238,6 +238,28 @@ class PageCard01 extends StatelessWidget {
               ),
             ),
 
+            const SizedBox(height: 30),
+
+            Container(
+              width: double.infinity,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                gradient: const LinearGradient(
+                  colors: [
+                    Color(0xFF4A00E0),
+                    Color(0xFF8E2DE2),
+                  ],
+                  begin: Alignment.topLeft,
+                  end: Alignment.bottomRight,
+                ),
+              ),
+              padding: const EdgeInsets.all(20),
+              child: const Text(
+                "Profile Card",
+                style: TextStyle(color: Colors.white, fontSize: 18),
+              ),
+            ),
+
           ],
         ),
       ),
