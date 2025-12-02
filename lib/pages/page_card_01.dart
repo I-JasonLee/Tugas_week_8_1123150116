@@ -260,12 +260,11 @@ class PageCard01 extends StatelessWidget {
                   Container(
                     width: 80,
                     height: 80,
-                    decoration: const BoxDecoration(
+                    decoration: BoxDecoration(
                       shape: BoxShape.circle,
-                      image: DecorationImage(
-                        image: NetworkImage(
-                          "https://i.pravatar.cc/300", // contoh foto random
-                        ),
+                      border: Border.all(color: Colors.white, width: 4),
+                      image: const DecorationImage(
+                        image: NetworkImage("https://i.pravatar.cc/300"),
                         fit: BoxFit.cover,
                       ),
                     ),
