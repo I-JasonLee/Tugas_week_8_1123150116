@@ -256,10 +256,19 @@ class PageCard01 extends StatelessWidget {
               padding: const EdgeInsets.all(20),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
-                children: const [
-                  Text(
-                    "Profile Card",
-                    style: TextStyle(color: Colors.white, fontSize: 18),
+                children: [
+                  Container(
+                    width: 80,
+                    height: 80,
+                    decoration: const BoxDecoration(
+                      shape: BoxShape.circle,
+                      image: DecorationImage(
+                        image: NetworkImage(
+                          "https://i.pravatar.cc/300", // contoh foto random
+                        ),
+                        fit: BoxFit.cover,
+                      ),
+                    ),
                   ),
                 ],
               ),
