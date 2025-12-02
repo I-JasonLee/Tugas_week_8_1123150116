@@ -254,9 +254,14 @@ class PageCard01 extends StatelessWidget {
                 ),
               ),
               padding: const EdgeInsets.all(20),
-              child: const Text(
-                "Profile Card",
-                style: TextStyle(color: Colors.white, fontSize: 18),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: const [
+                  Text(
+                    "Profile Card",
+                    style: TextStyle(color: Colors.white, fontSize: 18),
+                  ),
+                ],
               ),
             ),
 
