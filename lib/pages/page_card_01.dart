@@ -732,86 +732,90 @@ class PageCard01 extends StatelessWidget {
 
             // Nonaktifkan 0.7
 
-            const SizedBox(height: 30),
+            // Nonaktifkan 0.8
 
-            const Padding(
-              padding: EdgeInsets.symmetric(horizontal: 16),
-              child: Text(
-                "Horizontal Card",
-                style: TextStyle(
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-            ),
+            // const SizedBox(height: 30),
 
-            const SizedBox(height: 10),
+            // const Padding(
+            //   padding: EdgeInsets.symmetric(horizontal: 16),
+            //   child: Text(
+            //     "Horizontal Card",
+            //     style: TextStyle(
+            //       fontSize: 20,
+            //       fontWeight: FontWeight.bold,
+            //     ),
+            //   ),
+            // ),
 
-            Card(
-              elevation: 6,
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(12),
-              ),
-              margin: const EdgeInsets.symmetric(horizontal: 16),
-              child: Row(
-                children: [
-                  // Left Image
-                  Container(
-                    width: 120,
-                    height: 120,
-                    decoration: BoxDecoration(
-                      borderRadius: const BorderRadius.only(
-                        topLeft: Radius.circular(12),
-                        bottomLeft: Radius.circular(12),
-                      ),
-                      image: const DecorationImage(
-                        image: NetworkImage("https://picsum.photos/200/200"),
-                        fit: BoxFit.cover,
-                      ),
-                    ),
-                  ),
+            // const SizedBox(height: 10),
 
-                  Expanded(
-                    child: Padding(
-                      padding: const EdgeInsets.all(12.0),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: const [
-                          Text(
-                            "Judul Horizontal Card",
-                            style: TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.bold,
-                            ),
-                          ),
-                          SizedBox(height: 8),
-                          Text(
-                            "Ini adalah contoh card horizontal dengan gambar di kiri dan teks di sisi kanan.",
-                            style: TextStyle(
-                              fontSize: 14,
-                              color: Colors.grey,
-                            ),
-                          ),
+            // Card(
+            //   elevation: 6,
+            //   shape: RoundedRectangleBorder(
+            //     borderRadius: BorderRadius.circular(12),
+            //   ),
+            //   margin: const EdgeInsets.symmetric(horizontal: 16),
+            //   child: Row(
+            //     children: [
+            //       // Left Image
+            //       Container(
+            //         width: 120,
+            //         height: 120,
+            //         decoration: BoxDecoration(
+            //           borderRadius: const BorderRadius.only(
+            //             topLeft: Radius.circular(12),
+            //             bottomLeft: Radius.circular(12),
+            //           ),
+            //           image: const DecorationImage(
+            //             image: NetworkImage("https://picsum.photos/200/200"),
+            //             fit: BoxFit.cover,
+            //           ),
+            //         ),
+            //       ),
 
-                          const SizedBox(height: 10),
+            //       Expanded(
+            //         child: Padding(
+            //           padding: const EdgeInsets.all(12.0),
+            //           child: Column(
+            //             crossAxisAlignment: CrossAxisAlignment.start,
+            //             children: const [
+            //               Text(
+            //                 "Judul Horizontal Card",
+            //                 style: TextStyle(
+            //                   fontSize: 18,
+            //                   fontWeight: FontWeight.bold,
+            //                 ),
+            //               ),
+            //               SizedBox(height: 8),
+            //               Text(
+            //                 "Ini adalah contoh card horizontal dengan gambar di kiri dan teks di sisi kanan.",
+            //                 style: TextStyle(
+            //                   fontSize: 14,
+            //                   color: Colors.grey,
+            //                 ),
+            //               ),
 
-                          Align(
-                            alignment: Alignment.bottomRight,
-                            child: IconButton(
-                              onPressed: () {},
-                              icon: const Icon(Icons.more_vert),
-                            ),
-                          ),
+            //               const SizedBox(height: 10),
 
-                        ],
+            //               Align(
+            //                 alignment: Alignment.bottomRight,
+            //                 child: IconButton(
+            //                   onPressed: () {},
+            //                   icon: const Icon(Icons.more_vert),
+            //                 ),
+            //               ),
 
-                      ),
-                    ),
-                  ),
+            //             ],
 
-                ],
-              ),
-            ),
+            //           ),
+            //         ),
+            //       ),
+
+            //     ],
+            //   ),
+            // ),
+
+            // Nonaktifkan 0.8
 
           ],
         ),
