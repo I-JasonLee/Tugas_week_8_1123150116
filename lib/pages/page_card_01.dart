@@ -439,6 +439,17 @@ class PageCard01 extends StatelessWidget {
                       ),
                     ),
                   ),
+
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 12.0),
+                    child: Text(
+                      "A random photo from Picsum, demonstrating card with image.",
+                      style: TextStyle(
+                        fontSize: 14,
+                        color: Colors.grey[700],
+                      ),
+                    ),
+                  ),
                   
                 ],
               ),
