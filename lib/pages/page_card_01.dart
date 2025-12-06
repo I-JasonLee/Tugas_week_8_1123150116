@@ -569,7 +569,7 @@ class PageCard01 extends StatelessWidget {
             // Nonaktifkan 0.5
 
             const SizedBox(height: 30),
-            
+
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 16),
               child: Text(
@@ -581,7 +581,63 @@ class PageCard01 extends StatelessWidget {
               ),
             ),
 
-const SizedBox(height: 10),
+            const SizedBox(height: 10),
+
+            SizedBox(
+              height: 300, // tinggi grid
+              child: GridView.count(
+                crossAxisCount: 2, // 2 kolom
+                mainAxisSpacing: 12,
+                crossAxisSpacing: 12,
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+
+                children: [
+                  // item 1
+                  Card(
+                    elevation: 4,
+                    child: Center(
+                      child: Text(
+                        "Item 1",
+                        style: TextStyle(fontWeight: FontWeight.bold),
+                      ),
+                    ),
+                  ),
+
+                  // item 2
+                  Card(
+                    elevation: 4,
+                    child: Center(
+                      child: Text(
+                        "Item 2",
+                        style: TextStyle(fontWeight: FontWeight.bold),
+                      ),
+                    ),
+                  ),
+
+                  // item 3
+                  Card(
+                    elevation: 4,
+                    child: Center(
+                      child: Text(
+                        "Item 3",
+                        style: TextStyle(fontWeight: FontWeight.bold),
+                      ),
+                    ),
+                  ),
+
+                  // item 4
+                  Card(
+                    elevation: 4,
+                    child: Center(
+                      child: Text(
+                        "Item 4",
+                        style: TextStyle(fontWeight: FontWeight.bold),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
 
           ],
         ),
