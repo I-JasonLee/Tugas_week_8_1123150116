@@ -9,6 +9,7 @@ class PageCard01 extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Latihan Card 01"),
       ),
+
       body: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
@@ -378,10 +379,23 @@ class PageCard01 extends StatelessWidget {
                             ),
                           ],
                         ),
+
                       ],
                     ),
+
+                    const SizedBox(height: 30),
+
+                    Card(
+                      elevation: 6,
+                      margin: const EdgeInsets.symmetric(horizontal: 16),
+                      child: ListTile(
+                        title: const Text("Ini Title"),
+                      ),
+                    ),
+
                   ],
                 ),
+                
               ),
             ),
 
