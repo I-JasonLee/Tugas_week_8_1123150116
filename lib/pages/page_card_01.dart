@@ -595,46 +595,67 @@ class PageCard01 extends StatelessWidget {
                   // item 1
                   Card(
                     elevation: 4,
-                    child: Center(
-                      child: Text(
-                        "Item 1",
-                        style: TextStyle(fontWeight: FontWeight.bold),
-                      ),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: const [
+                        Icon(Icons.home, size: 40, color: Colors.deepPurple),
+                        SizedBox(height: 10),
+                        Text(
+                          "Home",
+                          style: TextStyle(fontWeight: FontWeight.bold),
+                        ),
+                      ],
                     ),
                   ),
 
                   // item 2
                   Card(
                     elevation: 4,
-                    child: Center(
-                      child: Text(
-                        "Item 2",
-                        style: TextStyle(fontWeight: FontWeight.bold),
-                      ),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: const [
+                        Icon(Icons.person, size: 40, color: Colors.deepPurple),
+                        SizedBox(height: 10),
+                        Text(
+                          "Home",
+                          style: TextStyle(fontWeight: FontWeight.bold),
+                        ),
+                      ],
                     ),
                   ),
 
                   // item 3
                   Card(
                     elevation: 4,
-                    child: Center(
-                      child: Text(
-                        "Item 3",
-                        style: TextStyle(fontWeight: FontWeight.bold),
-                      ),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: const [
+                        Icon(Icons.settings, size: 40, color: Colors.deepPurple),
+                        SizedBox(height: 10),
+                        Text(
+                          "Home",
+                          style: TextStyle(fontWeight: FontWeight.bold),
+                        ),
+                      ],
                     ),
                   ),
 
                   // item 4
                   Card(
                     elevation: 4,
-                    child: Center(
-                      child: Text(
-                        "Item 4",
-                        style: TextStyle(fontWeight: FontWeight.bold),
-                      ),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: const [
+                        Icon(Icons.info, size: 40, color: Colors.deepPurple),
+                        SizedBox(height: 10),
+                        Text(
+                          "Home",
+                          style: TextStyle(fontWeight: FontWeight.bold),
+                        ),
+                      ],
                     ),
                   ),
+
                 ],
               ),
             ),
