@@ -686,7 +686,10 @@ class PageCard01 extends StatelessWidget {
             ),
             margin: const EdgeInsets.symmetric(horizontal: 16),
             child: ClipRRect(
-              borderRadius: BorderRadius.circular(20),
+              borderRadius: const BorderRadius.only(
+                topLeft: Radius.circular(20),
+                topRight: Radius.circular(20),
+              ),
               child: Image.network(
                 "https://picsum.photos/600/350",
                 fit: BoxFit.cover,
