@@ -767,7 +767,34 @@ class PageCard01 extends StatelessWidget {
                       ),
                     ),
                   ),
-                  
+
+                  Expanded(
+                    child: Padding(
+                      padding: const EdgeInsets.all(12.0),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: const [
+                          Text(
+                            "Judul Horizontal Card",
+                            style: TextStyle(
+                              fontSize: 18,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          SizedBox(height: 8),
+                          Text(
+                            "Ini adalah contoh card horizontal dengan gambar di kiri dan teks di sisi kanan.",
+                            style: TextStyle(
+                              fontSize: 14,
+                              color: Colors.grey,
+                            ),
+                          ),
+                        ],
+                        
+                      ),
+                    ),
+                  ),
+
                 ],
               ),
             ),
