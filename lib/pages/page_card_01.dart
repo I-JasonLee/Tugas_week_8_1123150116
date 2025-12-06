@@ -568,12 +568,108 @@ class PageCard01 extends StatelessWidget {
 
             // Nonaktifkan 0.5
 
-            const SizedBox(height: 30),
+            // Nonaktifkan 0.6
 
+            // const SizedBox(height: 30),
+
+            // const Padding(
+            //   padding: EdgeInsets.symmetric(horizontal: 16),
+            //   child: Text(
+            //     "Grid Card",
+            //     style: TextStyle(
+            //       fontSize: 20,
+            //       fontWeight: FontWeight.bold,
+            //     ),
+            //   ),
+            // ),
+
+            // const SizedBox(height: 10),
+
+            // SizedBox(
+            //   height: 300, // tinggi grid
+            //   child: GridView.count(
+            //     crossAxisCount: 2, // 2 kolom
+            //     mainAxisSpacing: 12,
+            //     crossAxisSpacing: 12,
+            //     padding: const EdgeInsets.symmetric(horizontal: 16),
+
+            //     children: [
+            //       // item 1
+            //       Card(
+            //         elevation: 4,
+            //         child: Column(
+            //           mainAxisAlignment: MainAxisAlignment.center,
+            //           children: const [
+            //             Icon(Icons.home, size: 40, color: Colors.deepPurple),
+            //             SizedBox(height: 10),
+            //             Text(
+            //               "Home",
+            //               style: TextStyle(fontWeight: FontWeight.bold),
+            //             ),
+            //           ],
+            //         ),
+            //       ),
+
+            //       // item 2
+            //       Card(
+            //         elevation: 4,
+            //         child: Column(
+            //           mainAxisAlignment: MainAxisAlignment.center,
+            //           children: const [
+            //             Icon(Icons.person, size: 40, color: Colors.deepPurple),
+            //             SizedBox(height: 10),
+            //             Text(
+            //               "Home",
+            //               style: TextStyle(fontWeight: FontWeight.bold),
+            //             ),
+            //           ],
+            //         ),
+            //       ),
+
+            //       // item 3
+            //       Card(
+            //         elevation: 4,
+            //         child: Column(
+            //           mainAxisAlignment: MainAxisAlignment.center,
+            //           children: const [
+            //             Icon(Icons.settings, size: 40, color: Colors.deepPurple),
+            //             SizedBox(height: 10),
+            //             Text(
+            //               "Home",
+            //               style: TextStyle(fontWeight: FontWeight.bold),
+            //             ),
+            //           ],
+            //         ),
+            //       ),
+
+            //       // item 4
+            //       Card(
+            //         elevation: 4,
+            //         child: Column(
+            //           mainAxisAlignment: MainAxisAlignment.center,
+            //           children: const [
+            //             Icon(Icons.info, size: 40, color: Colors.deepPurple),
+            //             SizedBox(height: 10),
+            //             Text(
+            //               "Home",
+            //               style: TextStyle(fontWeight: FontWeight.bold),
+            //             ),
+            //           ],
+            //         ),
+            //       ),
+
+            //     ],
+            //   ),
+            // ),
+
+            // Nonaktifkan 0.6
+
+            const SizedBox(height: 30),
+            
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 16),
               child: Text(
-                "Grid Card",
+                "Rounded Image Card",
                 style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
@@ -581,84 +677,7 @@ class PageCard01 extends StatelessWidget {
               ),
             ),
 
-            const SizedBox(height: 10),
-
-            SizedBox(
-              height: 300, // tinggi grid
-              child: GridView.count(
-                crossAxisCount: 2, // 2 kolom
-                mainAxisSpacing: 12,
-                crossAxisSpacing: 12,
-                padding: const EdgeInsets.symmetric(horizontal: 16),
-
-                children: [
-                  // item 1
-                  Card(
-                    elevation: 4,
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: const [
-                        Icon(Icons.home, size: 40, color: Colors.deepPurple),
-                        SizedBox(height: 10),
-                        Text(
-                          "Home",
-                          style: TextStyle(fontWeight: FontWeight.bold),
-                        ),
-                      ],
-                    ),
-                  ),
-
-                  // item 2
-                  Card(
-                    elevation: 4,
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: const [
-                        Icon(Icons.person, size: 40, color: Colors.deepPurple),
-                        SizedBox(height: 10),
-                        Text(
-                          "Home",
-                          style: TextStyle(fontWeight: FontWeight.bold),
-                        ),
-                      ],
-                    ),
-                  ),
-
-                  // item 3
-                  Card(
-                    elevation: 4,
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: const [
-                        Icon(Icons.settings, size: 40, color: Colors.deepPurple),
-                        SizedBox(height: 10),
-                        Text(
-                          "Home",
-                          style: TextStyle(fontWeight: FontWeight.bold),
-                        ),
-                      ],
-                    ),
-                  ),
-
-                  // item 4
-                  Card(
-                    elevation: 4,
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: const [
-                        Icon(Icons.info, size: 40, color: Colors.deepPurple),
-                        SizedBox(height: 10),
-                        Text(
-                          "Home",
-                          style: TextStyle(fontWeight: FontWeight.bold),
-                        ),
-                      ],
-                    ),
-                  ),
-
-                ],
-              ),
-            ),
+          const SizedBox(height: 10),
 
           ],
         ),
