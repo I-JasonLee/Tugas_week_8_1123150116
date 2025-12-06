@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class PageCardLatihanextends StatelessWidget {
+class PageCardLatihan extends StatelessWidget {
   const PageCardLatihan({super.key});
 
   @override
