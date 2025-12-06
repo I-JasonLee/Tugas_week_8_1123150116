@@ -749,6 +749,9 @@ class PageCard01 extends StatelessWidget {
 
             Card(
               elevation: 6,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(12),
+              ),
               margin: const EdgeInsets.symmetric(horizontal: 16),
               child: Row(
                 children: [
