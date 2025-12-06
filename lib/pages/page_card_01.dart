@@ -389,10 +389,13 @@ class PageCard01 extends StatelessWidget {
                       elevation: 6,
                       margin: const EdgeInsets.symmetric(horizontal: 16),
                       child: const ListTile(
-                        leading: Icon(Icons.info, color: Colors.blue),
-                        title: Text("Ini Title"),
-                        subtitle: Text("Ini Subtitle"),
-                        trailing: Icon(Icons.arrow_forward_ios),
+                        leading: Icon(Icons.account_circle, size: 40, color: Colors.deepPurple),
+                        title: Text(
+                          "ListTile Title",
+                          style: TextStyle(fontWeight: FontWeight.bold),
+                        ),
+                        subtitle: Text("This is subtitle inside card"),
+                        trailing: Icon(Icons.more_vert),
                       ),
                     ),
 
