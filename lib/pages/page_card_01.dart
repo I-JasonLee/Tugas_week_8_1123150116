@@ -665,7 +665,7 @@ class PageCard01 extends StatelessWidget {
             // Nonaktifkan 0.6
 
             const SizedBox(height: 30),
-            
+
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 16),
               child: Text(
@@ -678,6 +678,21 @@ class PageCard01 extends StatelessWidget {
             ),
 
           const SizedBox(height: 10),
+
+          Card(
+            elevation: 6,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(20),
+            ),
+            margin: const EdgeInsets.symmetric(horizontal: 16),
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(20),
+              child: Image.network(
+                "https://picsum.photos/600/350",
+                fit: BoxFit.cover,
+              ),
+            ),
+          ),
 
           ],
         ),
