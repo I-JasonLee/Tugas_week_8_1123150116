@@ -71,4 +71,14 @@ Widget buildMasterCardLogo() {
   );
 }
 
+Widget buildChipAndNFC() {
+  return Row(
+    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+    children: const [
+      Icon(Icons.credit_card, color: Colors.white70, size: 40),
+      Icon(Icons.contactless, color: Colors.white54, size: 40),
+    ],
+  );
+}
+
 
