@@ -422,11 +422,24 @@ class PageCard01 extends StatelessWidget {
               elevation: 8,
               margin: const EdgeInsets.symmetric(horizontal: 16),
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Image.network(
                     "https://picsum.photos/300/200",
                     fit: BoxFit.cover,
                   ),
+
+                   Padding(
+                    padding: const EdgeInsets.all(12.0),
+                    child: Text(
+                      "Beautiful Landscape",
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ),
+                  
                 ],
               ),
             ),
