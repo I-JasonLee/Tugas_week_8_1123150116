@@ -517,6 +517,25 @@ class PageCard01 extends StatelessWidget {
                     ),
                   ),
 
+                  const SizedBox(height: 12),
+
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 12),
+                    child: Row(
+                      children: [
+                        ElevatedButton(
+                          onPressed: () {},
+                          child: const Text("Detail"),
+                        ),
+                        const SizedBox(width: 10),
+                        OutlinedButton(
+                          onPressed: () {},
+                          child: const Text("Share"),
+                        ),
+                      ],
+                    ),
+                  ),
+
                 ],
 
               ),
