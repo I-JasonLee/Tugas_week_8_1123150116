@@ -11,7 +11,11 @@ class PageCardLatihan extends StatelessWidget {
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
-        child: buildCreditCard(),
+        child: SizedBox(
+          width: 660,   // atur lebar kartu
+          height: 400,  // atur tinggi kartu
+          child: buildCreditCard(),
+        ),
       ),
     );
   }
@@ -33,13 +37,43 @@ Widget buildCreditCard() {
           const SizedBox(height: 20),
           buildChipAndNFC(),
           const SizedBox(height: 20),
+
+          const SizedBox(height: 16),
+
           const Text(
-            "**** **** **** 5201",
+            "Jason Lee",
             style: TextStyle(
               color: Colors.white,
-              fontSize: 26,
-              letterSpacing: 3,
+              fontSize: 18,
+              fontWeight: FontWeight.bold,
+              letterSpacing: 1.5,
             ),
+          ),
+
+          SizedBox(height: 10),
+
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: const [
+              // Expiry Date
+              Text(
+                "VALID THRU  12/28",
+                style: TextStyle(
+                  color: Colors.white70,
+                  fontSize: 14,
+                  letterSpacing: 1.5,
+                ),
+              ),
+
+              Text(
+                "CVV  123",
+                style: TextStyle(
+                  color: Colors.white70,
+                  fontSize: 14,
+                  letterSpacing: 1.5,
+                ),
+              ),
+            ],
           ),
         ],
       ),
