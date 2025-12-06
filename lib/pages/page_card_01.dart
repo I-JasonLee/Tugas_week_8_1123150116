@@ -392,6 +392,7 @@ class PageCard01 extends StatelessWidget {
                         leading: Icon(Icons.info, color: Colors.blue),
                         title: Text("Ini Title"),
                         subtitle: Text("Ini Subtitle"),
+                        trailing: Icon(Icons.arrow_forward_ios),
                       ),
                     ),
 
