@@ -747,6 +747,31 @@ class PageCard01 extends StatelessWidget {
 
             const SizedBox(height: 10),
 
+            Card(
+              elevation: 6,
+              margin: const EdgeInsets.symmetric(horizontal: 16),
+              child: Row(
+                children: [
+                  // Left Image
+                  Container(
+                    width: 120,
+                    height: 120,
+                    decoration: BoxDecoration(
+                      borderRadius: const BorderRadius.only(
+                        topLeft: Radius.circular(12),
+                        bottomLeft: Radius.circular(12),
+                      ),
+                      image: const DecorationImage(
+                        image: NetworkImage("https://picsum.photos/200/200"),
+                        fit: BoxFit.cover,
+                      ),
+                    ),
+                  ),
+                  
+                ],
+              ),
+            ),
+
           ],
         ),
       ),
