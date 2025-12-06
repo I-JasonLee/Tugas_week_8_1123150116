@@ -416,55 +416,86 @@ class PageCard01 extends StatelessWidget {
 
             // Nonaktifkan 0.3
 
+            // Nonaktifkan 0.4
+
+            // const SizedBox(height: 30),
+
+            // Card(
+            //   elevation: 8,
+            //   margin: const EdgeInsets.symmetric(horizontal: 16),
+            //   child: Column(
+            //     crossAxisAlignment: CrossAxisAlignment.start,
+            //     children: [
+            //       Image.network(
+            //         "https://picsum.photos/300/200",
+            //         fit: BoxFit.cover,
+            //       ),
+
+            //        Padding(
+            //         padding: const EdgeInsets.all(12.0),
+            //         child: Text(
+            //           "Beautiful Landscape",
+            //           style: TextStyle(
+            //             fontSize: 18,
+            //             fontWeight: FontWeight.bold,
+            //           ),
+            //         ),
+            //       ),
+
+            //       Padding(
+            //         padding: const EdgeInsets.symmetric(horizontal: 12.0),
+            //         child: Text(
+            //           "A random photo from Picsum, demonstrating card with image.",
+            //           style: TextStyle(
+            //             fontSize: 14,
+            //             color: Colors.grey[700],
+            //           ),
+            //         ),
+            //       ),
+
+            //       const SizedBox(height: 10),
+
+            //       Row(
+            //         mainAxisAlignment: MainAxisAlignment.spaceAround,
+            //         children: const [
+            //           Icon(Icons.favorite, color: Colors.red),
+            //           Icon(Icons.comment, color: Colors.blue),
+            //           Icon(Icons.share, color: Colors.green),
+            //         ],
+            //       ),
+
+            //       const SizedBox(height: 10),
+                  
+            //     ],
+            //   ),
+            // ),
+
+            // Nonaktifkan 0.4
+
             const SizedBox(height: 30),
 
             Card(
-              elevation: 8,
+              elevation: 10,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(16),
+              ),
               margin: const EdgeInsets.symmetric(horizontal: 16),
+
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Image.network(
-                    "https://picsum.photos/300/200",
-                    fit: BoxFit.cover,
-                  ),
-
-                   Padding(
-                    padding: const EdgeInsets.all(12.0),
-                    child: Text(
-                      "Beautiful Landscape",
-                      style: TextStyle(
-                        fontSize: 18,
-                        fontWeight: FontWeight.bold,
-                      ),
+                  ClipRRect(
+                    borderRadius: const BorderRadius.only(
+                      topLeft: Radius.circular(16),
+                      topRight: Radius.circular(16),
+                    ),
+                    child: Image.network(
+                      "https://picsum.photos/400/250",
+                      fit: BoxFit.cover,
                     ),
                   ),
-
-                  Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 12.0),
-                    child: Text(
-                      "A random photo from Picsum, demonstrating card with image.",
-                      style: TextStyle(
-                        fontSize: 14,
-                        color: Colors.grey[700],
-                      ),
-                    ),
-                  ),
-
-                  const SizedBox(height: 10),
-
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceAround,
-                    children: const [
-                      Icon(Icons.favorite, color: Colors.red),
-                      Icon(Icons.comment, color: Colors.blue),
-                      Icon(Icons.share, color: Colors.green),
-                    ],
-                  ),
-                  
-                  const SizedBox(height: 10),
-                  
                 ],
+                
               ),
             ),
 
