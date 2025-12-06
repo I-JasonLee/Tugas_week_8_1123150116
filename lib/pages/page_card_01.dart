@@ -385,17 +385,20 @@ class PageCard01 extends StatelessWidget {
 
                     const SizedBox(height: 30),
 
-                    Card(
-                      elevation: 6,
-                      margin: const EdgeInsets.symmetric(horizontal: 16),
-                      child: const ListTile(
-                        leading: Icon(Icons.account_circle, size: 40, color: Colors.deepPurple),
-                        title: Text(
-                          "ListTile Title",
-                          style: TextStyle(fontWeight: FontWeight.bold),
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 16),
+                      child: Card(
+                        elevation: 6,
+                        
+                        child: const ListTile(
+                          leading: Icon(Icons.account_circle, size: 40, color: Colors.deepPurple),
+                          title: Text(
+                            "ListTile Title",
+                            style: TextStyle(fontWeight: FontWeight.bold),
+                          ),
+                          subtitle: Text("This is subtitle inside card"),
+                          trailing: Icon(Icons.more_vert),
                         ),
-                        subtitle: Text("This is subtitle inside card"),
-                        trailing: Icon(Icons.more_vert),
                       ),
                     ),
 
