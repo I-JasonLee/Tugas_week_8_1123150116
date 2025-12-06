@@ -494,8 +494,31 @@ class PageCard01 extends StatelessWidget {
                       fit: BoxFit.cover,
                     ),
                   ),
+
+                  Padding(
+                    padding: const EdgeInsets.all(12),
+                    child: Text(
+                      "Card Image + Text + Button",
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ),
+
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 12),
+                    child: Text(
+                      "Contoh card dengan gambar di atas, teks di tengah, dan tombol di bawah.",
+                      style: TextStyle(
+                        fontSize: 14,
+                        color: Colors.grey,
+                      ),
+                    ),
+                  ),
+
                 ],
-                
+
               ),
             ),
 
