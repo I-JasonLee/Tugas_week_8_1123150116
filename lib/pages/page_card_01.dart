@@ -789,8 +789,19 @@ class PageCard01 extends StatelessWidget {
                               color: Colors.grey,
                             ),
                           ),
+
+                          const SizedBox(height: 10),
+
+                          Align(
+                            alignment: Alignment.bottomRight,
+                            child: IconButton(
+                              onPressed: () {},
+                              icon: const Icon(Icons.more_vert),
+                            ),
+                          ),
+
                         ],
-                        
+
                       ),
                     ),
                   ),
