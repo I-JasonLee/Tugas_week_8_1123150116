@@ -47,3 +47,28 @@ Widget buildCreditCard() {
   );
 }
 
+Widget buildMasterCardLogo() {
+  return Stack(
+    children: [
+      Container(
+        width: 40,
+        height: 40,
+        decoration: const BoxDecoration(
+          color: Color(0xFFEB001B),
+          shape: BoxShape.circle,
+        ),
+      ),
+      Container(
+        margin: const EdgeInsets.only(left: 20),
+        width: 40,
+        height: 40,
+        decoration: const BoxDecoration(
+          color: Color(0xFFF79E1B),
+          shape: BoxShape.circle,
+        ),
+      ),
+    ],
+  );
+}
+
+
