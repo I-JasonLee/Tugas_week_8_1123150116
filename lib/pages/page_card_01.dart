@@ -212,199 +212,222 @@ class PageCard01 extends StatelessWidget {
 
             // Nonaktifkan
 
-            Card(
-              elevation: 8,
-              child: Padding(
-                padding: const EdgeInsets.all(20.0), // padding untuk isi card
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    const Text(
-                      'Tentang Saya',
-                      style: TextStyle(
-                        fontSize: 20,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
+            // Nonaktifkan 0.2
 
-                    const SizedBox(height: 12),
+            // Card(
+            //   elevation: 8,
+            //   child: Padding(
+            //     padding: const EdgeInsets.all(20.0), // padding untuk isi card
+            //     child: Column(
+            //       crossAxisAlignment: CrossAxisAlignment.start,
+            //       children: [
+            //         const Text(
+            //           'Tentang Saya',
+            //           style: TextStyle(
+            //             fontSize: 20,
+            //             fontWeight: FontWeight.bold,
+            //           ),
+            //         ),
 
-                    Text(
-                      'an enthusiast in information technology (Digital Sign, Blockchain, etc), '
-                      'with more than 20 years of experiences in the payment industry',
-                      style: TextStyle(
-                        fontSize: 15,
-                        color: Colors.grey[700],
-                        height: 1.5, // agar lebih enak dibaca
-                      ),
-                      textAlign: TextAlign.justify,
-                    ),
-                  ],
-                ),
-              ),
-            ),
+            //         const SizedBox(height: 12),
+
+            //         Text(
+            //           'an enthusiast in information technology (Digital Sign, Blockchain, etc), '
+            //           'with more than 20 years of experiences in the payment industry',
+            //           style: TextStyle(
+            //             fontSize: 15,
+            //             color: Colors.grey[700],
+            //             height: 1.5, // agar lebih enak dibaca
+            //           ),
+            //           textAlign: TextAlign.justify,
+            //         ),
+            //       ],
+            //     ),
+            //   ),
+            // ),
+
+            // Nonaktifkan 0.2
+
+            // Nonaktifkan 0.3
+
+            // const SizedBox(height: 30),
+
+            // Padding(
+            //   padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
+            //   child: Container(
+            //     width: double.infinity,
+
+            //     decoration: BoxDecoration(
+            //       borderRadius: BorderRadius.circular(20),
+            //       gradient: const LinearGradient(
+            //         colors: [
+            //           Color(0xFF4A00E0),
+            //           Color(0xFF8E2DE2),
+            //         ],
+            //         begin: Alignment.topLeft,
+            //         end: Alignment.bottomRight,
+            //       ),
+            //     ),
+
+            //     padding: const EdgeInsets.all(20),
+
+            //     child: Column(
+            //       children: [
+            //         Row(
+            //           mainAxisAlignment: MainAxisAlignment.center,
+            //           children: [
+            //             Container(
+            //               width: 80,
+            //               height: 80,
+            //               decoration: BoxDecoration(
+            //                 shape: BoxShape.circle,
+            //                 border: Border.all(color: Colors.white, width: 4),
+            //                 image: const DecorationImage(
+            //                   image: NetworkImage("https://i.pravatar.cc/300"),
+            //                   fit: BoxFit.cover,
+            //                 ),
+            //               ),
+            //             ),
+
+            //             const SizedBox(width: 20),
+
+            //             Column(
+            //               crossAxisAlignment: CrossAxisAlignment.start,
+            //               children: const [
+            //                 Text(
+            //                   "Jason Lee",
+            //                   style: TextStyle(
+            //                     color: Colors.white,
+            //                     fontSize: 22,
+            //                     fontWeight: FontWeight.bold,
+            //                   ),
+            //                 ),
+            //                 SizedBox(height: 5),
+            //                 Text(
+            //                   "Flutter Developer",
+            //                   style: TextStyle(
+            //                     color: Colors.white70,
+            //                     fontSize: 16,
+            //                   ),
+            //                 ),
+            //               ],
+            //             ),
+            //           ],
+            //         ),
+
+            //         const SizedBox(height: 20),
+
+            //         Row(
+            //           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            //           children: [
+            //             Column(
+            //               children: const [
+            //                 Text(
+            //                   "100",
+            //                   style: TextStyle(
+            //                     fontSize: 22,
+            //                     fontWeight: FontWeight.bold,
+            //                     color: Colors.white,
+            //                   ),
+            //                 ),
+            //                 SizedBox(height: 5),
+            //                 Text(
+            //                   "Follower",
+            //                   style: TextStyle(
+            //                     fontSize: 14,
+            //                     fontWeight: FontWeight.bold,
+            //                     color: Colors.white54,
+            //                   ),
+            //                 ),
+            //               ],
+            //             ),
+
+            //             Column(
+            //               children: const [
+            //                 Text(
+            //                   "25",
+            //                   style: TextStyle(
+            //                     fontSize: 22,
+            //                     fontWeight: FontWeight.bold,
+            //                     color: Colors.white,
+            //                   ),
+            //                 ),
+            //                 SizedBox(height: 5),
+            //                 Text(
+            //                   "Year",
+            //                   style: TextStyle(
+            //                     fontSize: 14,
+            //                     fontWeight: FontWeight.bold,
+            //                     color: Colors.white54,
+            //                   ),
+            //                 ),
+            //               ],
+            //             ),
+
+            //             Column(
+            //               children: const [
+            //                 Text(
+            //                   "250",
+            //                   style: TextStyle(
+            //                     fontSize: 22,
+            //                     fontWeight: FontWeight.bold,
+            //                     color: Colors.white,
+            //                   ),
+            //                 ),
+            //                 SizedBox(height: 5),
+            //                 Text(
+            //                   "Project",
+            //                   style: TextStyle(
+            //                     fontSize: 14,
+            //                     fontWeight: FontWeight.bold,
+            //                     color: Colors.white54,
+            //                   ),
+            //                 ),
+            //               ],
+            //             ),
+
+            //           ],
+            //         ),
+
+            //         const SizedBox(height: 30),
+
+            //         Padding(
+            //           padding: const EdgeInsets.symmetric(horizontal: 16),
+            //           child: Card(
+            //             elevation: 6,
+                        
+            //             child: const ListTile(
+            //               leading: Icon(Icons.account_circle, size: 40, color: Colors.deepPurple),
+            //               title: Text(
+            //                 "ListTile Title",
+            //                 style: TextStyle(fontWeight: FontWeight.bold),
+            //               ),
+            //               subtitle: Text("This is subtitle inside card"),
+            //               trailing: Icon(Icons.more_vert),
+            //             ),
+            //           ),
+            //         ),
+
+            //       ],
+            //     ),
+                
+            //   ),
+            // ),
+
+            // Nonaktifkan 0.3
 
             const SizedBox(height: 30),
 
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
-              child: Container(
-                width: double.infinity,
-
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(20),
-                  gradient: const LinearGradient(
-                    colors: [
-                      Color(0xFF4A00E0),
-                      Color(0xFF8E2DE2),
-                    ],
-                    begin: Alignment.topLeft,
-                    end: Alignment.bottomRight,
+            Card(
+              elevation: 8,
+              margin: const EdgeInsets.symmetric(horizontal: 16),
+              child: Column(
+                children: [
+                  Image.network(
+                    "https://picsum.photos/300/200",
+                    fit: BoxFit.cover,
                   ),
-                ),
-
-                padding: const EdgeInsets.all(20),
-
-                child: Column(
-                  children: [
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Container(
-                          width: 80,
-                          height: 80,
-                          decoration: BoxDecoration(
-                            shape: BoxShape.circle,
-                            border: Border.all(color: Colors.white, width: 4),
-                            image: const DecorationImage(
-                              image: NetworkImage("https://i.pravatar.cc/300"),
-                              fit: BoxFit.cover,
-                            ),
-                          ),
-                        ),
-
-                        const SizedBox(width: 20),
-
-                        Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
-                            Text(
-                              "Jason Lee",
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 22,
-                                fontWeight: FontWeight.bold,
-                              ),
-                            ),
-                            SizedBox(height: 5),
-                            Text(
-                              "Flutter Developer",
-                              style: TextStyle(
-                                color: Colors.white70,
-                                fontSize: 16,
-                              ),
-                            ),
-                          ],
-                        ),
-                      ],
-                    ),
-
-                    const SizedBox(height: 20),
-
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: [
-                        Column(
-                          children: const [
-                            Text(
-                              "100",
-                              style: TextStyle(
-                                fontSize: 22,
-                                fontWeight: FontWeight.bold,
-                                color: Colors.white,
-                              ),
-                            ),
-                            SizedBox(height: 5),
-                            Text(
-                              "Follower",
-                              style: TextStyle(
-                                fontSize: 14,
-                                fontWeight: FontWeight.bold,
-                                color: Colors.white54,
-                              ),
-                            ),
-                          ],
-                        ),
-
-                        Column(
-                          children: const [
-                            Text(
-                              "25",
-                              style: TextStyle(
-                                fontSize: 22,
-                                fontWeight: FontWeight.bold,
-                                color: Colors.white,
-                              ),
-                            ),
-                            SizedBox(height: 5),
-                            Text(
-                              "Year",
-                              style: TextStyle(
-                                fontSize: 14,
-                                fontWeight: FontWeight.bold,
-                                color: Colors.white54,
-                              ),
-                            ),
-                          ],
-                        ),
-
-                        Column(
-                          children: const [
-                            Text(
-                              "250",
-                              style: TextStyle(
-                                fontSize: 22,
-                                fontWeight: FontWeight.bold,
-                                color: Colors.white,
-                              ),
-                            ),
-                            SizedBox(height: 5),
-                            Text(
-                              "Project",
-                              style: TextStyle(
-                                fontSize: 14,
-                                fontWeight: FontWeight.bold,
-                                color: Colors.white54,
-                              ),
-                            ),
-                          ],
-                        ),
-
-                      ],
-                    ),
-
-                    const SizedBox(height: 30),
-
-                    Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 16),
-                      child: Card(
-                        elevation: 6,
-                        
-                        child: const ListTile(
-                          leading: Icon(Icons.account_circle, size: 40, color: Colors.deepPurple),
-                          title: Text(
-                            "ListTile Title",
-                            style: TextStyle(fontWeight: FontWeight.bold),
-                          ),
-                          subtitle: Text("This is subtitle inside card"),
-                          trailing: Icon(Icons.more_vert),
-                        ),
-                      ),
-                    ),
-
-                  ],
-                ),
-                
+                ],
               ),
             ),
 
