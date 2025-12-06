@@ -388,11 +388,12 @@ class PageCard01 extends StatelessWidget {
                     Card(
                       elevation: 6,
                       margin: const EdgeInsets.symmetric(horizontal: 16),
-                      child: ListTile(
-                        title: const Text("Ini Title"),
+                      child: const ListTile(
+                        title: Text("Ini Title"),
+                        subtitle: Text("Ini Subtitle"),
                       ),
                     ),
-
+                    
                   ],
                 ),
                 
