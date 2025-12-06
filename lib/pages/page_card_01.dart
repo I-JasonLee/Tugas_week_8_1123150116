@@ -450,6 +450,19 @@ class PageCard01 extends StatelessWidget {
                       ),
                     ),
                   ),
+
+                  const SizedBox(height: 10),
+
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: const [
+                      Icon(Icons.favorite, color: Colors.red),
+                      Icon(Icons.comment, color: Colors.blue),
+                      Icon(Icons.share, color: Colors.green),
+                    ],
+                  ),
+                  
+                  const SizedBox(height: 10),
                   
                 ],
               ),
