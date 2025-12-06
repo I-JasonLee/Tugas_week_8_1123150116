@@ -666,36 +666,67 @@ class PageCard01 extends StatelessWidget {
 
             const SizedBox(height: 30),
 
-            const Padding(
-              padding: EdgeInsets.symmetric(horizontal: 16),
-              child: Text(
-                "Rounded Image Card",
-                style: TextStyle(
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold,
+              const Padding(
+                padding: EdgeInsets.symmetric(horizontal: 16),
+                child: Text(
+                  "Rounded Image Card",
+                  style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
               ),
-            ),
 
-          const SizedBox(height: 10),
+            const SizedBox(height: 10),
 
-          Card(
-            elevation: 6,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(20),
-            ),
-            margin: const EdgeInsets.symmetric(horizontal: 16),
-            child: ClipRRect(
-              borderRadius: const BorderRadius.only(
-                topLeft: Radius.circular(20),
-                topRight: Radius.circular(20),
+            Card(
+              elevation: 6,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(20),
               ),
-              child: Image.network(
-                "https://picsum.photos/600/350",
-                fit: BoxFit.cover,
+              margin: const EdgeInsets.symmetric(horizontal: 16),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  ClipRRect(
+                    borderRadius: const BorderRadius.only(
+                      topLeft: Radius.circular(20),
+                      topRight: Radius.circular(20),
+                    ),
+                    child: Image.network(
+                      "https://picsum.photos/600/350",
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+              
+                  // Text
+                  Padding(
+                    padding: const EdgeInsets.all(12.0),
+                    child: Text(
+                      "Rounded Image Card",
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ),
+
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 12),
+                    child: Text(
+                      "Card dengan sudut gambar melengkung menggunakan ClipRRect.",
+                      style: TextStyle(
+                        fontSize: 14,
+                        color: Colors.grey,
+                      ),
+                    ),
+                  ),
+
+                  const SizedBox(height: 12),
+
+                ],
               ),
             ),
-          ),
 
           ],
         ),
