@@ -472,97 +472,116 @@ class PageCard01 extends StatelessWidget {
 
             // Nonaktifkan 0.4
 
+            // Nonaktifkan 0.5
+
+            // const SizedBox(height: 30),
+
+            // Card(
+            //   elevation: 10,
+            //   shape: RoundedRectangleBorder(
+            //     borderRadius: BorderRadius.circular(16),
+            //   ),
+            //   margin: const EdgeInsets.symmetric(horizontal: 16),
+
+            //   child: Column(
+            //     crossAxisAlignment: CrossAxisAlignment.start,
+            //     children: [
+            //       ClipRRect(
+            //         borderRadius: const BorderRadius.only(
+            //           topLeft: Radius.circular(16),
+            //           topRight: Radius.circular(16),
+            //         ),
+            //         child: Image.network(
+            //           "https://picsum.photos/400/250",
+            //           fit: BoxFit.cover,
+            //         ),
+            //       ),
+
+            //       Padding(
+            //         padding: const EdgeInsets.all(12),
+            //         child: Text(
+            //           "Card Image + Text + Button",
+            //           style: TextStyle(
+            //             fontSize: 18,
+            //             fontWeight: FontWeight.bold,
+            //           ),
+            //         ),
+            //       ),
+
+            //       Padding(
+            //         padding: const EdgeInsets.symmetric(horizontal: 12),
+            //         child: Text(
+            //           "Contoh card dengan gambar di atas, teks di tengah, dan tombol di bawah.",
+            //           style: TextStyle(
+            //             fontSize: 14,
+            //             color: Colors.grey,
+            //           ),
+            //         ),
+            //       ),
+
+            //       const SizedBox(height: 12),
+
+            //       Padding(
+            //         padding: const EdgeInsets.symmetric(horizontal: 12),
+            //         child: Row(
+            //           children: [
+            //             ElevatedButton(
+            //               onPressed: () {},
+            //               child: const Text("Detail"),
+            //             ),
+            //             const SizedBox(width: 10),
+            //             OutlinedButton(
+            //               onPressed: () {},
+            //               child: const Text("Share"),
+            //             ),
+            //           ],
+            //         ),
+            //       ),
+
+            //       const SizedBox(height: 10),
+            //       const Divider(height: 1),
+
+            //       Row(
+            //         mainAxisAlignment: MainAxisAlignment.spaceAround,
+            //         children: const [
+            //           Padding(
+            //             padding: EdgeInsets.all(12),
+            //             child: Icon(Icons.favorite, color: Colors.red),
+            //           ),
+            //           Padding(
+            //             padding: EdgeInsets.all(12),
+            //             child: Icon(Icons.comment, color: Colors.blue),
+            //           ),
+            //           Padding(
+            //             padding: EdgeInsets.all(12),
+            //             child: Icon(Icons.share, color: Colors.green),
+            //           ),
+            //         ],
+            //       ),
+
+            //       const SizedBox(height: 8),
+
+            //     ],
+
+            //   ),
+            // ),
+
+            // Nonaktifkan 0.5
+
             const SizedBox(height: 30),
-
-            Card(
-              elevation: 10,
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(16),
-              ),
-              margin: const EdgeInsets.symmetric(horizontal: 16),
-
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  ClipRRect(
-                    borderRadius: const BorderRadius.only(
-                      topLeft: Radius.circular(16),
-                      topRight: Radius.circular(16),
-                    ),
-                    child: Image.network(
-                      "https://picsum.photos/400/250",
-                      fit: BoxFit.cover,
-                    ),
-                  ),
-
-                  Padding(
-                    padding: const EdgeInsets.all(12),
-                    child: Text(
-                      "Card Image + Text + Button",
-                      style: TextStyle(
-                        fontSize: 18,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                  ),
-
-                  Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 12),
-                    child: Text(
-                      "Contoh card dengan gambar di atas, teks di tengah, dan tombol di bawah.",
-                      style: TextStyle(
-                        fontSize: 14,
-                        color: Colors.grey,
-                      ),
-                    ),
-                  ),
-
-                  const SizedBox(height: 12),
-
-                  Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 12),
-                    child: Row(
-                      children: [
-                        ElevatedButton(
-                          onPressed: () {},
-                          child: const Text("Detail"),
-                        ),
-                        const SizedBox(width: 10),
-                        OutlinedButton(
-                          onPressed: () {},
-                          child: const Text("Share"),
-                        ),
-                      ],
-                    ),
-                  ),
-
-                  const SizedBox(height: 10),
-                  const Divider(height: 1),
-
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceAround,
-                    children: const [
-                      Padding(
-                        padding: EdgeInsets.all(12),
-                        child: Icon(Icons.favorite, color: Colors.red),
-                      ),
-                      Padding(
-                        padding: EdgeInsets.all(12),
-                        child: Icon(Icons.comment, color: Colors.blue),
-                      ),
-                      Padding(
-                        padding: EdgeInsets.all(12),
-                        child: Icon(Icons.share, color: Colors.green),
-                      ),
-                    ],
-                  ),
-
-                  const SizedBox(height: 8),
-
-                ],
-
+            
+            const Padding(
+              padding: EdgeInsets.symmetric(horizontal: 16),
+              child: Text(
+                "Grid Card",
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
             ),
+
+const SizedBox(height: 10),
 
           ],
         ),
